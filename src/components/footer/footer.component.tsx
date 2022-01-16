@@ -4,7 +4,6 @@ import { FooterContact, FooterContactItem, FooterIcon, FooterContactItemText, Fo
 import { FaWhatsapp } from 'react-icons/fa';
 import { AiOutlineMail, AiOutlineInstagram, AiOutlineCopyrightCircle } from 'react-icons/ai';
 import { FiChevronRight } from 'react-icons/fi';
-import { MenuItem } from "../menu/menu-item.component";
 
 export const Footer: React.FC = () => {
   return (

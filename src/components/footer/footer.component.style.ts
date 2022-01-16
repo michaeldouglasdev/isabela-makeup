@@ -1,7 +1,4 @@
 import styled from 'styled-components'
-import { MenuItem } from '../menu/menu-item.component'
-import { Menu } from '../menu/menu.component'
-import { MenuContainer } from '../menu/menu.component.style'
 
 export const FooterContainer = styled.footer`
   width: 100%;

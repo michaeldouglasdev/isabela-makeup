@@ -1,6 +1,5 @@
 import React from "react";
-import { HBox, JustifyContent, VBox, VSeparator } from "../../../../components/grid/grid.component";
-import { Logo } from "../../../../components/logo/logo.component";
+import { VBox, VSeparator } from "../../../../components/grid/grid.component";
 import { PresentationButton, PresentationContainer, PresentationImageLeft, PresentationImageRight, PresentationLogo, PresentationSubtitle, PresentationTitle, PresentationContentWrapper } from "./presentation.component.style";
 
 export const Presentation: React.FC = () => {

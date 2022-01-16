@@ -1,10 +1,8 @@
 import React from "react";
 import { BrandItem, BrandsContainer } from "./brands.component,style";
 import macLogo from '../../../../assets/mac-logo-2.png';
-import kryolanLogo from '../../../../assets/kryolan-logo.jpeg';
 import kryolanLogo2 from '../../../../assets/kryolan-logo-2.svg';
 
-import kvdLogo from '../../../../assets/kvd-logo-2.png';
 import tooFacedLogo from '../../../../assets/too-faced-logo-2.webp';
 import lauraMercierLogo from '../../../../assets/laura-mercier-logo.png';
 import urbanDecayLogo from '../../../../assets/urban-decay-logo.png';

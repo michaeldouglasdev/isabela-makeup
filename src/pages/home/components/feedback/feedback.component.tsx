@@ -1,5 +1,5 @@
 import React from "react";
-import { AlignItems, JustifyContent, VBox, VSeparator } from "../../../../components/grid/grid.component";
+import { AlignItems, VBox, VSeparator } from "../../../../components/grid/grid.component";
 import { FeedbackContainer, FeedbackItem, FeedbackItemClient, FeedbackItemClientImage, FeedbackItemClientName, FeedbackItemQuote, FeedbackItemText, FeedbackItemWrapper } from "./feedback.component.style";
 import { FaQuoteLeft } from 'react-icons/fa';
 import { SectionCaption, SectionTitle } from "../../../../components/typography/typography.style";
