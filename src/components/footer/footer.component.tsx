@@ -1,6 +1,6 @@
 import { AlignItems, HBox, JustifyContent, VBox, VSeparator } from "../grid/grid.component"
 import { Logo } from "../logo/logo.component"
-import { FooterContact, FooterContactItem, FooterIcon, FooterContactItemText, FooterContactTitle, FooterContainer, FooterLogoText, FooterMenu, FooterMenuItem, FooterSectionTitle, FooterSeparator, FooterDisclaimer } from "./footer.component.style"
+import { FooterContact, FooterContactItem, FooterIcon, FooterContactItemText, FooterContainer, FooterLogoText, FooterMenu, FooterMenuItem, FooterSectionTitle, FooterSeparator, FooterDisclaimer } from "./footer.component.style"
 import { FaWhatsapp } from 'react-icons/fa';
 import { AiOutlineMail, AiOutlineInstagram, AiOutlineCopyrightCircle } from 'react-icons/ai';
 import { FiChevronRight } from 'react-icons/fi';
