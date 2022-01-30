@@ -23,11 +23,11 @@ export const Menu: React.FC<MenuProps> = ({ light, vertical }) => {
       </MenuToggle>
 
       <MenuMenu light={light} vertical={vertical} show={showMenu}>
-        <MenuItem text='Home' href='#home' />
-        <MenuItem text='Sobre' href='#about' />
-        <MenuItem text='Produtos' href='#products' />
-        <MenuItem text='Galeria' href='#gallery' />
-        <MenuItem text='Contato' href='#contact' />
+        <MenuItem text='Home' href='#home'  />
+        <MenuItem text='Sobre' href='#about' onClick={handleToggle} />
+        <MenuItem text='Produtos' href='#products' onClick={handleToggle} />
+        <MenuItem text='Galeria' href='#gallery' onClick={handleToggle} />
+        <MenuItem text='Contato' href='#contact' onClick={handleToggle} />
       </MenuMenu>
     </MenuContainer>
   )
