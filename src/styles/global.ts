@@ -24,8 +24,10 @@ export default createGlobalStyle`
 
 	@font-face {
 		font-family: "Mr De Haviland";
-		src: local("Mr De Haviland"),
-		url("src/fonts/MrDeHaviland-Regular.ttf") format("truetype");
+		src: url("src/fonts/MrDeHaviland-Regular.ttf") format("truetype"),
+			url("src/fonts/MrDeHaviland-Regular.woff") format("woff"),
+			url("src/fonts/MrDeHaviland-Regular.woff2") format("woff2");
+;
 	}
 
 	@font-face {

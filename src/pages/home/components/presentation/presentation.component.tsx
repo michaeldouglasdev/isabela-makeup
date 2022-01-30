@@ -4,7 +4,7 @@ import { PresentationButton, PresentationContainer, PresentationImageLeft, Prese
 
 export const Presentation: React.FC = () => {
   return (
-    <PresentationContainer id="#home">
+    <PresentationContainer id="home">
       <PresentationImageLeft />
 
       <PresentationContentWrapper>
@@ -20,12 +20,12 @@ export const Presentation: React.FC = () => {
           <VSeparator />
 
           <PresentationSubtitle>
-            Para propor uma melhor experiência, trabalhamos com as melhores maquiagens
+            Para propor uma melhor experiência, trabalhamos com os melhores produtos e técnicas avançadas.
             Entre em contato no botão abaixo
           </PresentationSubtitle>
 
           <VSeparator />
-          <PresentationButton href="https://api.whatsapp.com/send?phone=5511974531457&text=Olá, Isabela!">
+          <PresentationButton href="https://api.whatsapp.com/send?phone=5511974531457&text=Olá, Isabela!" target="_blank">
             Contatar Isabela
           </PresentationButton>
         </VBox>

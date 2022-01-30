@@ -41,7 +41,16 @@ export const FooterMenuItem = styled.li`
   margin-bottom: 16px;
   list-style-type: none;
 `
+export const FooterMenuItemLink = styled.a`
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.5;
 
+  &:hover {
+    color: ${({ theme }) => theme.colors.primary}
+  }
+`
 export const FooterContact = styled.div`
   display: flex;
   flex: 1;
@@ -65,6 +74,19 @@ export const FooterContactItemText = styled.span`
   color: ${({ theme }) => theme.colors.gray.regular};
   font-size: 18px;
 `;
+
+export const FooterContactItemTextLink = styled.a.attrs({
+  target:"_blank",
+})`
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.5;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.primary}
+  }
+`
 
 export const FooterIcon = styled.span`
   color: ${({ theme }) => theme.colors.primary};
