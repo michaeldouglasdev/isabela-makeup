@@ -25,7 +25,7 @@ export const GalleryItemContainer = styled.div<GalleryItemProps>`
   background-size: cover;
   height: 360px;
   width: calc(25% - 24px);
-  margin: 12px 0;
+  margin: 8px 0;
   padding: 16px;
   position: relative;
 

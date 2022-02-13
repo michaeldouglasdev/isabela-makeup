@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
           </FooterSectionTitle>
 
           <FooterLogoText>
-            Etiam consequat sem ullamcorper, euismod metus sit amet, tristique justo. Vestibulum mattis, nisi ut faucibus commodo, risus ex commodo.
+
           </FooterLogoText>
         </VBox>
 

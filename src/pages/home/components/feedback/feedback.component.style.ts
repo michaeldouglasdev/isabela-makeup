@@ -10,7 +10,7 @@ export const FeedbackContainer = styled.div`
   padding: 64px;
 
   @media(max-width: 640px) {
-    padding: 32px;
+    padding: 32px 16px;
   }
 `;
 
@@ -34,7 +34,7 @@ export const FeedbackItem = styled.div`
   box-shadow: ${({ theme}) => `0px 4px 8px 0 ${theme.colors.secondary}`};
   border: 1px solid #ffd7e4aa;
   border-radius: 8px;
-  padding: 32px;
+  padding: 32px 16px;
 
   transition: 0.3s;
   &:hover{

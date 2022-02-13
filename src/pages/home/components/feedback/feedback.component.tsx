@@ -19,7 +19,7 @@ export const Feedback: React.FC = () => {
           </FeedbackItemQuote>
 
           <FeedbackItemText>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+            Primeira vez que faço maquiagem com uma profissional e me surpreendi muito, todo atendimento e a atenção que recebi foi incrível, além de claro, o resultado da make que ficou exatamente como eu queria.
           </FeedbackItemText>
 
           <VSeparator />
@@ -43,7 +43,7 @@ export const Feedback: React.FC = () => {
             <FaQuoteLeft />
           </FeedbackItemQuote>
           <FeedbackItemText>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+            A Isabela promete uma maquiagem de alto padrão e realmente, tanto os produtos como as técnicas utilizdas por ela são de extrema qualidade, amei a make e durou o dia todo.
           </FeedbackItemText>
 
           <VSeparator />
@@ -68,7 +68,7 @@ export const Feedback: React.FC = () => {
           </FeedbackItemQuote>
 
           <FeedbackItemText>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+          Superou todas as minhas expectativas! A maquiagem blindada feita pela Isabela é realmente resistente a lágrimas e atrito, minha maquiagem durou a minha formatura toda, cheguei em casa com a amake intacta.
           </FeedbackItemText>
 
           <VSeparator />

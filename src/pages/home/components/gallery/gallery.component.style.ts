@@ -8,7 +8,7 @@ export const GalleryContainer = styled.div`
   padding: 64px;
 
   @media(max-width: 640px) {
-    padding: 32px;
+    padding: 32px 16px;
   }
 `;
 

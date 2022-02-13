@@ -8,7 +8,7 @@ import { Presentation } from './components/presentation/presentation.component';
 export const HomePage: React.FC = () => {
 
   return (
-    <Layout>
+    <Layout >
       <Presentation />
       <Feedback />
       <Brands />
