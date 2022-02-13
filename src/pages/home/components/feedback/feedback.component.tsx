@@ -80,7 +80,7 @@ export const Feedback: React.FC = () => {
               <VSeparator small />
               <VSeparator small />
               <FeedbackItemClientName>
-                Clara Macedo
+                Maria Eduarda
               </FeedbackItemClientName>
             </VBox>
 

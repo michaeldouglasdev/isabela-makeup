@@ -95,7 +95,7 @@ export const PresentationImageLeft = styled.div`
 export const PresentationImageRight = styled.div`
   align-self: flex-end;
   background: url(${presentationImageRight}) no-repeat center;
-  background-size: cover;
+  background-size: contain;
   height: 700px;
   width: 700px;
 
