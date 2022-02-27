@@ -8,7 +8,7 @@ import { shade } from 'polished';
 export const PresentationContainer = styled.div`
   display: flex;
   align-items: center;
-  height: calc(100vh - 71px);
+  min-height: calc(100vh - 83px);
   width: 100%;
   background: ${({ theme }) => theme.colors.secondary};
   padding: 0 124px;
