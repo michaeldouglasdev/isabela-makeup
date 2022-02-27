@@ -1,6 +1,5 @@
 import { AlignItems, HBox, JustifyContent, VBox, VSeparator } from "../grid/grid.component"
-import { Logo } from "../logo/logo.component"
-import { FooterContact, FooterContactItem, FooterIcon, FooterContactItemText, FooterContainer, FooterLogoText, FooterMenu, FooterMenuItem, FooterSectionTitle, FooterSeparator, FooterDisclaimer, FooterMenuItemLink, FooterContactItemTextLink } from "./footer.component.style"
+import { FooterContact, FooterContactItem, FooterIcon, FooterContactItemText, FooterContainer, FooterMenu, FooterMenuItem, FooterSectionTitle, FooterSeparator, FooterDisclaimer, FooterMenuItemLink, FooterContactItemTextLink } from "./footer.component.style"
 import { FaWhatsapp } from 'react-icons/fa';
 import { AiOutlineMail, AiOutlineInstagram, AiOutlineCopyrightCircle } from 'react-icons/ai';
 import { FiChevronRight } from 'react-icons/fi';
@@ -12,16 +11,6 @@ export const Footer: React.FC = () => {
       <FooterSeparator />
 
       <HBox alignItems={AlignItems.FLEX_START} gap={64}>
-        <VBox expanded noSpacing>
-          <FooterSectionTitle>
-            <Logo />
-          </FooterSectionTitle>
-
-          <FooterLogoText>
-
-          </FooterLogoText>
-        </VBox>
-
         <VBox expanded noSpacing>
           <FooterSectionTitle>
             Explorar

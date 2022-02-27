@@ -9,9 +9,7 @@ export const Presentation: React.FC = () => {
 
       <PresentationContentWrapper>
         <VBox>
-          <PresentationLogo>
-            Isabela Makeup
-          </PresentationLogo>
+          <PresentationLogo />
 
           <PresentationTitle>
             Maquiagem de alto padrão, para seu estilo único

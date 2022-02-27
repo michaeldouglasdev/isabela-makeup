@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SectionTitle = styled.span`
-  font-family: 'Mr de Haviland';
+  font-family: 'O PTICubaLibreTwo';
   font-size: 64px;
   color: ${({ theme }) => theme.colors.primary};
 `

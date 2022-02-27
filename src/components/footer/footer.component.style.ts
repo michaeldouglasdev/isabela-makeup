@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import logo from '../../assets/logo-render.png';
 
 export const FooterContainer = styled.footer`
   width: 100%;
@@ -10,6 +11,14 @@ export const FooterContainer = styled.footer`
   }
 `
 
+export const FooterLogo = styled.div`
+  height: 75px;
+  width: 75px;
+  mask: url(${logo}) center/contain no-repeat;
+
+  background: ${({ theme }) => theme.colors.primary};
+  background-size: contain;
+`;
 export const FooterSectionTitle = styled.h2`
   font-size: 36px;
   color: ${({ theme }) => theme.colors.primary};

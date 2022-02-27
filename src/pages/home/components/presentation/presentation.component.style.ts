@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import presentationImageLeft from '../../../../assets/home-makeup-brush.png';
 import presentationImageRight from '../../../../assets/isabela-presentation.jpeg';
+import logoRender from '../../../../assets/logo-render.png';
 
 import { shade } from 'polished';
 
@@ -18,10 +19,12 @@ export const PresentationContainer = styled.div`
 
 `
 
-export const PresentationLogo = styled.span`
-  font-family: 'Mr de Haviland';
-  font-size: 48px;;
-  color: ${({ theme}) => shade(0.3, theme.colors.primary)};
+export const PresentationLogo = styled.div`
+  height: 150px;
+  width: 150px;
+  background: url(${logoRender}) no-repeat center;
+  background-size: cover;
+  align-self: center;
 `;
 
 export const PresentationContentWrapper = styled.div`

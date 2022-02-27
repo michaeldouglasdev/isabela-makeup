@@ -35,4 +35,12 @@ export default createGlobalStyle`
 		src: local("Prata"),
 		url("src/fonts/Prata-Regular.ttf") format("truetype");
 	}
+
+	@font-face {
+		font-family: "O PTICubaLibreTwo";
+		src: url("src/fonts/OPTICubaLibreTwo.ttf") format("truetype"),
+			url("src/fonts/OPTICubaLibreTwo.woff") format("woff"),
+			url("src/fonts/OPTICubaLibreTwo.woff2") format("woff2");
+;
+	}
 `;
