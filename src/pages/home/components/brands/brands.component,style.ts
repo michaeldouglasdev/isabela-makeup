@@ -5,7 +5,7 @@ export const BrandsContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 24px 48px;
+  padding: 24px 32px;
   gap: 32px;
   background: ${({ theme }) => theme.colors.secondary};
   background: #141414;
