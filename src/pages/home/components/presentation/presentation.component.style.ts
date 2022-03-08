@@ -25,6 +25,12 @@ export const PresentationLogo = styled.div`
   background: url(${logoRender}) no-repeat center;
   background-size: cover;
   align-self: center;
+  z-index: 2;
+
+  @media(max-width: 640px) {
+    width: 250px;
+    height: 250px;
+  }
 `;
 
 export const PresentationContentWrapper = styled.div`
@@ -107,6 +113,7 @@ export const PresentationImageRight = styled.div`
     width: 300px;
     z-index: 2;
     align-self: center;
+    display: none;
   }
 
 `;
