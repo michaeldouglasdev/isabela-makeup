@@ -80,7 +80,7 @@ export const Footer: React.FC = () => {
                   <FaWhatsapp />
                 </FooterIcon>
                 <FooterContactItemText>
-                <FooterContactItemTextLink href="https://api.whatsapp.com/send?phone=5511974231457&text=Olá, Isabela!">
+                <FooterContactItemTextLink href="https://api.whatsapp.com/send?phone=5511974231457&text=Olá, Isabela! Gostaria de fazer um orçamento">
                   (11) 97423-1457
                 </FooterContactItemTextLink>
                 </FooterContactItemText>

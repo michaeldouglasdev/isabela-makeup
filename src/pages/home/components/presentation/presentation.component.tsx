@@ -23,7 +23,7 @@ export const Presentation: React.FC = () => {
           </PresentationSubtitle>
 
           <VSeparator />
-          <PresentationButton href="https://api.whatsapp.com/send?phone=5511974231457&text=Olá, Isabela!" target="_blank">
+          <PresentationButton href="https://api.whatsapp.com/send?phone=5511974231457&text=Olá, Isabela! Gostaria de fazer um orçamento" target="_blank">
             Contatar Isabela
           </PresentationButton>
         </VBox>
